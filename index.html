@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Letter For You</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@300;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --main-blue: #0056b3;
+            --main-yellow: #ffde59;
+            --soft-blue: #e3f2fd;
+            --white: #ffffff;
+        }
+
+        body {
+            background-color: var(--soft-blue);
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+
+        header { text-align: center; padding: 60px 20px; }
+        h1 { color: var(--main-blue); font-size: 2.5rem; margin-bottom: 10px; }
+
+        /* The Signature Box Design */
+        .card {
+            background: var(--white);
+            border: 3px solid var(--main-yellow);
+            border-radius: 25px; /* Round corners */
+            padding: 35px;
+            margin-bottom: 40px;
+            box-shadow: 10px 10px 0px var(--main-blue);
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: var(--main-blue);
+            border-bottom: 2px solid var(--soft-blue);
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .date-text { font-size: 0.8rem; color: #888; text-transform: uppercase; }
+
+        /* Signature Font for Content */
+        .signature-text {
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.6rem;
+            color: #2c3e50;
+            white-space: pre-line;
+        }
+
+        /* Dream Section */
+        .dreams-section {
+            background: var(--main-blue);
+            color: var(--main-yellow);
+            border-radius: 30px;
+            padding: 40px;
+            text-align: center;
+            margin: 50px 0;
+        }
+        .dream-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .dream-item { margin: 15px; flex: 1; min-width: 150px; }
+        .dream-icon { font-size: 2rem; display: block; }
+
+        /* Songs List */
+        .song-card { border-left: 10px solid var(--main-yellow); }
+        .song-list { list-style: none; padding: 0; }
+        .song-item { 
+            padding: 10px 0; 
+            border-bottom: 1px solid #eee; 
+            display: flex; 
+            justify-content: space-between;
+        }
+        .song-num { color: var(--main-blue); font-weight: bold; margin-right: 10px; }
+
+        /* Closing Section */
+        .closing {
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 1.2rem;
+        }
+        .always-here {
+            font-family: 'Great Vibes', cursive;
+            font-size: 3rem;
+            color: var(--main-blue);
+            margin: 20px 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>💙 A Letter For You 💛</h1>
+            <p>Written with all my heart</p>
+        </header>
+
+        <div class="card">
+            <div class="date-text">Poem #1</div>
+            <div class="card-title">Midnight Thoughts</div>
+            <div class="signature-text">
+                Your presence is the morning light,
+                Chasing away the darkest night.
+                In shades of yellow and of blue,
+                I find my peace in loving you.
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="date-text">Poem #2</div>
+            <div class="card-title">The Sky Above</div>
+            <div class="signature-text">
+                The ocean deep, the sky so wide,
+                With you forever by my side.
+            </div>
+        </div>
+
+        <div class="dreams-section">
+            <h2>Your Dreams, My Inspiration 🌟</h2>
+            <div class="dream-grid">
+                <div class="dream-item"><span class="dream-icon">🦅</span><b>Eagle Scout</b><br>Honor & Courage</div>
+                <div class="dream-item"><span class="dream-icon">✈️</span><b>Flight Attendant</b><br>New Heights</div>
+                <div class="dream-item"><span class="dream-icon">👑</span><b>Model</b><br>Shining Bright</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="date-text">Letter #1 - May 2, 2026</div>
+            <div class="card-title">First Letter</div>
+            <div class="signature-text">
+                This is the start of all the things I want to say to you...
+            </div>
+        </div>
+
+        <div class="card song-card">
+            <h2 style="color: var(--main-blue)">🎵 Top Songs For You</h2>
+            <div class="song-list">
+                <div class="song-item"><span><span class="song-num">#1</span> Arrowmance</span> <span>Rob Deniel</span></div>
+                <div class="song-item"><span><span class="song-num">#2</span> Paninindigan Kita</span> <span>Ben&Ben</span></div>
+                <div class="song-item"><span><span class="song-num">#3</span> Dalangin</span> <span>Earl Agustin</span></div>
+                <div class="song-item"><span><span class="song-num">#4</span> Ang Pag-ibig</span> <span>Rob Deniel</span></div>
+                <div class="song-item"><span><span class="song-num">#5</span> I Like Me Better</span> <span>Lauv</span></div>
+            </div>
+        </div>
+
+        <div class="closing">
+            <p>You are my greatest dream, my inspiration, and my love.</p>
+            <div class="always-here">I'm always here.</div>
+            <p>~~~~~~~~~~~</p>
+            <p>With my whole heart,</p>
+            <h2 style="color: var(--main-blue)">💙 Your Name 💛</h2>
+        </div>
+    </div>
+
+</body>
+</html>
+
